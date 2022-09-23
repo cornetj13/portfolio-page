@@ -6,10 +6,65 @@
 
 :root {
   --background: #000000;
+  --navbar: gray;
   --primary-text: #ffffff;
   --secondary-text: #eeeeee;
   --primary-color: darkgreen;
   --secondary-color: green;
   --tertiary-color: lightgreen;
   --accent-color: orange;
+}
+
+nav {
+  background-color: var(--navbar);
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-name-box {
+  background-color: var(--primary-color);
+  height: 15vh;
+  width: 20%;
+}
+
+.portfolio-nav-box {
+  background-color: var(--secondary-color);
+  height: 15vh;
+  width: 20%;
+}
+
+header {
+  background-color: var(--accent-color);
+  height: 20vh;
+  position: relative;
+}
+
+.header-subtitle {
+  background-color: var(--primary-color);
+  height: 15vh;
+  width: 20%;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+main {
+  background-color: var(--tertiary-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main-section {
+  background-color: var(--navbar);
+  height: 20vh;
+  border: 5px solid black;;
+}
+
+footer {
+  background-color: var(--primary-color);
+  height: 10vh;
 }
