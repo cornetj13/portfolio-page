@@ -25,15 +25,46 @@ nav {
 
 .portfolio-name-box {
   background-color: var(--primary-color);
-  height: 15vh;
-  width: 20%;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio-name-box h1 {
+  margin-left: 40px;
 }
 
 .portfolio-nav-box {
   background-color: var(--secondary-color);
-  height: 15vh;
-  width: 20%;
+  height: auto;
+  width: auto;
+  padding: 5px;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  padding: 5px;
+}
+
+nav a {
+  color: var(--primary-text);
+  padding: 0px 20px;
+  text-decoration: none;
+  border-bottom: 2px solid var(--primary-text);
+}
+
+/* nav a:hover {
+
+} */
 
 header {
   background-color: var(--accent-color);
