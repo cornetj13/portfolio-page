@@ -8,6 +8,8 @@
   <title>Jonathan's Portfolio</title>
 </head>
 <body>
+  <!-- Header -->
+  <header>  
     <!-- Nav Bar -->
     <nav>
       <!-- Portfolio Name -->
@@ -21,40 +23,62 @@
           <li><a href="#about-me-section">About Me</a></li>
           <li><a href="#my-work-section">My Work</a></li>
           <li><a href="#contact-me-section">Contact Me</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a a href="./assets/documents/2022_Professional_CV.pdf" target="_blank">Resume</a></li>
         </ul>
       </div>
     </nav>
+  </header>
 
-    <!-- Header -->
-    <header>
-      <!-- Subtitle -->
-      <div class="header-subtitle">
+  <!-- Backdrop Section -->
+  <section class="backdrop">
+    <!-- Subtitle -->
+    <div class="backdrop-subtitle">
+      <h3>Pages that bring you places.</h3>
+    </div>
+  </section>
 
+  <!-- Main Section -->
+  <main>
+    <!--  About Me Section  -->
+    <section class="main-section about-me" id="about-me-section">
+      <h2>About Me</h2>
+      <div class="about-me-text">
+        <h3 class="hello">Hello!</h3>
+        <p><span class="space"></span>My name is <span class="name-span">Jonathan Cornet</span>. I'm a bit of a computer nerd. I'm a full stack developer, a game developer, and a software engineer. I have created computational models for engineering applications, developed fully functional mobile games, and deployed engaging fullstack websites. With 3+ years of experience, I have worked with many languages and using several different methodologies. This portfolio page showcases some of my most recent web developement work!</p>
       </div>
-    </header>
+      <div class="portrait">
+        <img class="my-image" src="./assets/images/Jon-resized-2.jpg" alt="A picture of Jonathan.">
+      </div>
+    </section>
 
-    <!-- Main Section -->
-    <main>
-      <!--  About Me Section  -->
-      <section class="main-section" id="about-me-section">
+    <!--  My Work Section  -->
+    <section class="main-section my-work" id="my-work-section">
+      <h2>My Work</h2>
+      <div class="projects-grid">
+        <a href="https://react-housing-market-app.vercel.app/" target="_blank" class="grid-span-2"><section class="project-1 project-background"><div class="project-subtitle"><p>Housing Marketplace</p></div></section></a>
+        <a href="https://awesome-beaver-2e320b.netlify.app/" target="_blank"><section class="project-2 project-background"><div class="project-subtitle"><p>Feedback UI</p></div></section></a>
+        <a href="https://react-git-hub-finder-app-gt2k0p2be-cornetj13.vercel.app/" target="_blank"><section class="project-3 project-background"><div class="project-subtitle"><p>GitHub Finder</p></div></section></a>
+        <a href="https://cornetsupportdesk.herokuapp.com/" target="_blank"><section class="project-4 project-background"><div class="project-subtitle"><p>MERN Stack Support Desk</p></div></section></a>
+        <a href="https://cornetj13.github.io/code-refactor/" target="_blank"><section class="project-5 project-background"><div class="project-subtitle"><p>Code Refactor</p></div></section></a>
+      </div>
+    </section>
 
-      </section>
+    <!--  Contact Me Section  -->
+    <section class="main-section contact-me" id="contact-me-section">
+      <h2>Contact Me</h2>
+      <div class="contact-flex">
+        <h5><a href="#">555-5555</a></h5>
+        <h5><a href="https://www.jonathancornet.com/" target="_blank">jonathancornet.com</a></h5>
+        <h5><a href="https://github.com/cornetj13" target="_blank">GitHub</a></h5>
+        <h5><a href="https://www.linkedin.com/in/jonathan-cornet-95a64b21a/" target="_blank">LinkedIn</a></h5>
+        <h5><a href="https://twitter.com/home" target="_blank">Twitter</a></h5>
+      </div>
+    </section>
+  </main>
 
-      <!--  My Work Section  -->
-      <section class="main-section" id="my-work-section">
-
-      </section>
-
-      <!--  Contact Me Section  -->
-      <section class="main-section" id="contact-me-section">
-
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-
-    </footer>
+  <!-- Footer -->
+  <footer>
+    <h4>&copy 2022 Jonathan Cornet Webpage Production</h4>
+  </footer>
 </body>
 </html>
