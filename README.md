@@ -23,6 +23,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The webpage looks as following:
 
 ![top-part-of-webpage](./assets/images/README/top-part-portfolio-page.png)
+![second-part-of-webpage](./assets/images/README/second-part-portfolio-page.png)
+![third-part-of-webpage](./assets/images/README/third-part-portfolio-page.png)
+![bottom-part-of-webpage](./assets/images/README/bottom-part-portfolio-page.png)
 
 ## Installation
 
