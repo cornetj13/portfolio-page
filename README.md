@@ -45,4 +45,4 @@ https://www.youtube.com/kepowob
 
 ## License
 
-There is no license needed for this challenge.
+Please refer to the LICENSE in the repo.
