@@ -22,6 +22,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The webpage looks as following:
 
+![top-part-of-webpage](./assets/images/README/top-part-portfolio-page.png)
+
 ## Installation
 
 No Installation is needed to view and use this webpage.
